@@ -10,10 +10,10 @@
 #### 部分项目展示
 
 1.  DB-api
-![mysql](https://gitee.com/lixintao/python_notes/raw/master/img/mysql.jpg )
+![mysql](mysql.jpg )
 
 2.python anywhere
-![viewlog](https://gitee.com/lixintao/python_notes/raw/master/img/python3.jpg )
+![viewlog](python3.jpg )
 
 
 
