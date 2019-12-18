@@ -1,19 +1,19 @@
-from flask import Flask, render_template, request, escape
-app = Flask(__name__)
+# python笔记
 
-@app.route('/pick_a_color', methods=['POST'])
-def pick_a_color() -> "html":
-    user_color = request.form['user_color']
-    print("user_color:", user_color)
-    return render_template('results.html',
-                           the_title = '以下是您选的颜色',
-                           the_color = user_color,)
+#### 介绍
+用于记录总结2019秋季学期的python课程及能力展示。
 
-@app.route('/')
-@app.route('/entry')
-def entry_page() -> 'html':
-    return render_template('entry.html',
-                           the_title='欢迎来到网上选色')
+#### 个人简介
+姓名：李鑫桃；班级：18网新3班；自述：本人在本学期自认在前期没有太用力去学习python，但自从经历期中考试后，我开始重新审视自己，开始认真学习python，现不停地追赶上老师的讲课进度。我会为了不拖累别人和自己而全力完成任务。
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
+#### 部分项目展示
+
+1.  DB-api
+![mysql](https://gitee.com/lixintao/python_notes/raw/master/img/mysql.jpg )
+
+2.python anywhere
+![viewlog](https://gitee.com/lixintao/python_notes/raw/master/img/python3.jpg )
+
+
+
